@@ -1,0 +1,40 @@
+.footer{
+    display:flex ;
+    flex-direction:column; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 2, 51 , 0.45);
+}
+
+.footer-containt{
+    width: 800px;
+    height: 350px;
+    background: rgba(62, 60, 60, 0.3);
+    border-radius: 40px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 1em;
+    color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.footer h1{ 
+    font-size: 35px;
+    margin: 0;
+}
+.footer p{
+    width: 70%;
+}
+.footer button{
+    border-color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5rem;
+    background-color: rgb(0, 0, 0, 2%);
+    color: white;
+}
+

@@ -1,0 +1,20 @@
+.nawBar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(14, 2, 51);
+    z-index: 2;
+}
+
+
+.nawBar-list {
+    display: flex;
+    gap: 1rem;
+    justify-content:center;
+    padding: 1rem;
+    color: white;
+}
+
+
+
+
+

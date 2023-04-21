@@ -1,0 +1,22 @@
+.proyectList{
+    width: 100%;
+    background-color: rgb(14, 2, 51 , 0.5);
+
+}
+.proyectList-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+    padding: 2em 2em 3em;
+}
+.proyectList h2{
+    text-align: center;
+    font-size:  3vw;
+    margin-top: 1em;
+}
+
+.proyectList h2 span {
+    color: #0ef;
+    font-size: 3.5vw;
+}
