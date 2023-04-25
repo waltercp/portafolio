@@ -7,7 +7,7 @@
 .banner-content {
     display: flex;
     width: 100%;
-    padding: 0 1em 2em 5em;
+    padding: 0 1vw 2vw 5vw;
 }
 
 .banner-fondo {
@@ -29,14 +29,12 @@
     border-radius: 40%;
     overflow: hidden;
     */
-
- 
-
 }
 
 .banner-image img {
     transition: 0.6s ease-in-out;
     width: 30vw;
+  
 
 }
 
@@ -54,18 +52,19 @@
 
 .banner-Info h1 {
     margin: 0;
-    font-size: 5.5vw;
+    font-size: 5.4vw;
+
 }
 
 .banner-Info h1 span {
     font-size: 45px;
     color: #0ef;
-    font-size: 6.2vw;
+    font-size: 6vw;
 }
 
 .banner-Info p {
     width: 80%;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     text-align: justify;
 }
 
@@ -85,3 +84,48 @@
     background-color: #0ef;
 }
 
+
+
+@media screen and (max-aspect-ratio: 1.2) {
+    .banner-content {
+        flex-direction: column-reverse;
+        padding: 6vw;
+        margin-top: 0;
+        gap: 4vw;
+        justify-content: center;
+    }
+
+    .banner-image {
+        align-items: center;
+    }
+
+    .banner-image img{
+        min-width: 15em;
+    }
+
+    .banner-Info {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+    }
+
+    .banner-Info h1 {
+        font-size: 6.5vw;
+      }
+    .banner-Info p {
+      font-size: 1.2em;
+      width: 100%;
+      
+    }
+    .banner-Info button{
+        margin-top: 1em;
+    }
+
+    @media (max-width: 550px){
+        .banner-Info p {
+            font-size: 3vw;
+          }
+    }
+
+}

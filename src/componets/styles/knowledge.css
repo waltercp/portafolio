@@ -5,13 +5,12 @@
     height: 10w;
     border-radius: 2rem;
     display: flex;
-    transition: 0.5s ease-in-out;
+    transition: transform 200ms ease;
     overflow: hidden;
 }
 
 .knowlegge-container:hover {
-    border-color: #0ef;
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 .knowlegge-container-img {

@@ -29,6 +29,27 @@ const knowledgeCuatro = {
 
 }
 
+const knowledgeCinco = {
+    img: '/knoweldge/js.png',
+    name: 'JavaScrit',
+    descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate hic. Deleniti expedita sed asperiores obcaecati doloremque facere cumque.'
+
+}
+
+const knowledgeSeis = {
+    img: '/knoweldge/excel.png',
+    name: 'Excel',
+    descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate hic. Deleniti expedita sed asperiores obcaecati doloremque facere cumque.'
+
+}
+
+const knowledgeSiete= {
+    img: '/knoweldge/python.png',
+    name: 'Python',
+    descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate hic. Deleniti expedita sed asperiores obcaecati doloremque facere cumque.'
+
+}
+
 
 const KnowledgeListt = () => {
     return (
@@ -39,6 +60,9 @@ const KnowledgeListt = () => {
                 <Knowledge knowledges={knowledgeDos} />
                 <Knowledge knowledges={knowledgeTres} />
                 <Knowledge knowledges={knowledgeCuatro} />
+                <Knowledge knowledges={knowledgeCinco}/>
+                <Knowledge knowledges={knowledgeSeis}/>
+                <Knowledge knowledges={knowledgeSiete}/>
             </div>
         </div>
     )

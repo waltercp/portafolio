@@ -7,8 +7,8 @@
 }
 
 .footer-containt{
-    width: 800px;
-    height: 350px;
+    max-width: 50em;
+    height: 27em;
     background: rgba(62, 60, 60, 0.3);
     border-radius: 40px;
     padding: 1rem;
@@ -19,12 +19,11 @@
     text-align: justify;
     gap: 1em;
     color: #ffffff;
-    margin-top: 2em;
-    margin-bottom: 4em;
+    margin: 2em 1em 4em 1em;
 }
 
 .footer h1{ 
-    font-size: 35px;
+    font-size: 2.5wm;
     margin: 0;
 }
 .footer p{

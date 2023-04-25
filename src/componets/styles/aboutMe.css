@@ -71,3 +71,47 @@
 .aboutMe-Info button:hover {
     background-color: #0ef;
 }
+
+
+
+@media screen and (max-aspect-ratio: 1.2) {
+    .aboutMe-content {
+        flex-direction: column;
+        padding: 6vw;
+        margin-top: 0;
+        gap: 4vw;
+        justify-content: center;
+    }
+
+    .aboutMe-image {
+        align-items: center;
+    }
+
+    .aboutMe-image img{
+        min-width: 15em;
+    }
+
+    .aboutMe-Info {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutMe-Info h1 {
+        font-size: 5.8vw;
+      }
+    .aboutMe-Info p {
+      font-size: 1em;
+      width: 100%;
+    }
+    .aboutMe-Info button{
+        margin-top: 1em;
+    }
+
+    @media (max-width: 500px){
+        .aboutMe-Info p {
+            font-size: 3vw;
+          }
+    }
+
+}
