@@ -1,14 +1,13 @@
 .proyectList{
     width: 100%;
     background-color: rgb(14, 2, 51 , 0.5);
-
 }
 .proyectList-content{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5em;
     justify-content: center;
-    padding: 2em 2em 3em;
+    padding: 2em 1em 3em;
 }
 .proyectList h2{
     text-align: center;

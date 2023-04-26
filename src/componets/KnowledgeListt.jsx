@@ -53,7 +53,7 @@ const knowledgeSiete= {
 
 const KnowledgeListt = () => {
     return (
-        <div className='knowledgeListt'>
+        <div className='knowledgeListt' id='knowledge'>
             <h2> <span>My</span> knowledge</h2>
             <div className='knowledgeListt-content' >
                 <Knowledge knowledges={knowledgeUno} />

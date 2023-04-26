@@ -27,7 +27,7 @@ const proyectCuatro = {
 
 const ProyectList = () => {
   return (
-    <div className= 'proyectList'>
+    <div className= 'proyectList' id='proyect'>
       <h2> <span>Latest </span>Project</h2>
         <div className='proyectList-content' >
         <Proyects proyecto={proyectUno} />

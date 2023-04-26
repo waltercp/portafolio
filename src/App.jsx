@@ -5,16 +5,12 @@ import Banner from './componets/Banner'
 import ProyectList from './componets/ProyectList'
 import AboutMe from './componets/AboutMe'
 import KnowledgeListt from './componets/KnowledgeListt'
-import { useState } from 'react'
+
 
 
 
 
 function App() {
-
-  const [loading, setloading] = useState(false)
-
-
   return (
     <div className="App">
   

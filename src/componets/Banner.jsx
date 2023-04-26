@@ -3,7 +3,7 @@ import './styles/banner.css'
 
 const Banner = () => {
   return (
-    <div className='banner'>
+    <div className='banner' id='home'>
       <div className='banner-content'>
         <div className='banner-Info'>
           <h1>  <span>Hi!</span> I'am a Frontend Developer.</h1>
