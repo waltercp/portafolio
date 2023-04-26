@@ -5,11 +5,9 @@
     z-index: 2;
 }
 
-
 .handleIconNavbar {
     display: none
 }
-
 
 .nawBar-list {
     display: flex;
@@ -24,9 +22,7 @@
 }
 
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     .menuResponsive{
         background-color: rgb(14, 2, 51);
@@ -37,12 +33,12 @@
         border-radius: 0 0 0 1em;
         z-index: 2;
     }
+
     .handleIconNavbar {
         display:inline-block;
         font-size: 50px;
     }
     
-
     .nawBar-list {
         background-color: rgba(47, 41, 61, 0.95);
         position: fixed;
@@ -54,7 +50,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-   
         gap: 2em;
         transition: left .5s;
         padding: 0;
@@ -68,6 +63,4 @@
         font-size: 1.5em;
         color: white;
     }
-
-    
 }
