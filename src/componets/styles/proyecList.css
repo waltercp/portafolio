@@ -1,21 +1,40 @@
-.proyectList{
-    width: 100%;
-    background-color: rgb(14, 2, 51 , 0.5);
+.proyectList {
+    background-color: rgb(14, 2, 51, 0.5);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 2em;
+    padding: 5em 1em 0 1em
 }
-.proyectList-content{
+
+.proyectList-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5em;
-    justify-content: center;
-    padding: 2em 1em 3em;
+    gap: 2rem;
+    justify-content: center
 }
-.proyectList h2{
+
+.proyectList h2 {
     text-align: center;
-    font-size:  3vw;
-    margin-top: 1em;
+    font-size: 3.5vw;
 }
 
 .proyectList h2 span {
     color: #0ef;
     font-size: 3.5vw;
+}
+
+
+@media (max-width: 950px) {
+    .proyectList h2 {
+        font-size: 2em;
+    }
+    
+    .proyectList h2 span {
+        font-size: 1.2em;
+    }
+
+    .proyectList{
+        gap: 1em;
+    }
 }

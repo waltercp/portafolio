@@ -1,31 +1,23 @@
 .knowledgeListt{
     display:flex ;
     flex-direction: column;
-    align-items: center;
     min-height: 100vh;
-    margin-top: 2em;
-    gap: 3em;
-    justify-content: center;
-    margin-bottom: 3em;
-    padding: 1em;
-
+    gap: 2em;
+    padding: 5em 1em 0 1em
 }
 
 .knowledgeListt-content{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     border-radius: 2rem;
-   
     justify-content: center;
-
-
+    margin-bottom: 2em;
 }
 
 
 .knowledgeListt h2 {
-    margin: 0;
+    text-align: center;
     font-size: 3.5vw;
 }
 
@@ -34,4 +26,18 @@
     font-size: 45px;
     color: #0ef;
     font-size: 4vw;
+}
+
+@media (max-width: 950px) {
+    .knowledgeListt h2 {
+        font-size: 2em;
+    }
+    
+    .knowledgeListt h2 span {
+        font-size: 1.2em;
+    }
+
+    .knowledgeListt{
+        gap: 1em;
+    }
 }
