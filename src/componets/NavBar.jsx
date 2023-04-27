@@ -16,6 +16,7 @@ const NavBar = () => {
         <div onClick={handleMenu} class="bx handleIconNavbar bxs-dashboard"></div>
       </div>
 
+
       <ul className= {`nawBar-list ${nawBar? 'active' : ''} ` } >
         <li onClick={handleMenu} ><a href="#home">Home</a></li>
         <li onClick={handleMenu} ><a href="#aboutMe">About me</a></li>
