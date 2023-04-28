@@ -36,7 +36,7 @@ const knowledgeCinco = {
 const knowledgeSeis = {
     img: '/knoweldge/excel.png',
     name: 'Excel',
-    descripcion: 'Puedo trabajar con diferentes tipos de datos y realizar tareas básicas de análisis, como ordenar y filtrar datos, utilizar funciones básicas de Excel y ademas de crear informes personalizados para resumir y presentar los datos de manera efectiva. Puedes crear tablas dinámicas que permitan filtrar, ordenar y agrupar los datos para obtener información valiosa y presentarla de una manera clara y concisa.'
+    descripcion: 'Puedo realizar tareas básicas de análisis, como ordenar y filtrar datos, utilizar funciones básicas de Excel y ademas de crear informes personalizados para resumir y presentar los datos de manera efectiva. Puedes crear tablas dinámicas que permitan filtrar, ordenar y agrupar los datos para obtener información valiosa y presentarla de una manera clara y concisa.'
 
 }
 
