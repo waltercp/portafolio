@@ -36,6 +36,13 @@ const proyectCinco = {
   url: 'https://userperson-camacho-walter.netlify.app/'
 }
 
+const proyectSeis = {
+  img: '/proyects/proyecto6',
+  name: 'Pokemon',
+  descripcion: 'JavaScript | React |  HTML5 | CSS | Redux',
+  url: 'https://profound-marshmallow-5a07b8.netlify.app/#/pokedex'
+}
+
 
 const ProyectList = () => {
   return (
@@ -47,6 +54,7 @@ const ProyectList = () => {
         <Proyects proyecto={proyectTres} />
         <Proyects proyecto={proyectCuatro} />
         <Proyects proyecto={proyectCinco} />
+        <Proyects proyecto={proyectSeis} />
         </div>
     </div>
   )
