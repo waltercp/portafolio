@@ -40,7 +40,7 @@ const proyectSeis = {
   img: '/proyects/proyecto6.png',
   name: 'Pokemon',
   descripcion: 'JavaScript | React |  HTML5 | CSS | Redux',
-  url: 'https://profound-marshmallow-5a07b8.netlify.app/#/pokedex'
+  url: 'https://pokedex-walter-camacho.netlify.app/'
 }
 
 
