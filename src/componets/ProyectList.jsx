@@ -42,6 +42,13 @@ const proyectSeis = {
   descripcion: 'JavaScript | React |  HTML5 | CSS | Redux',
   url: 'https://pokedex-walter-camacho.netlify.app/'
 }
+const proyectSiete = {
+  img: '/proyects/proyecto7.png',
+  name: 'ecommerce',
+  descripcion: 'JavaScript | React |  HTML5 | CSS | Redux',
+  url: 'https://ecommerce-walter-camacho.netlify.app/'
+}
+
 
 
 const ProyectList = () => {
@@ -55,6 +62,7 @@ const ProyectList = () => {
         <Proyects proyecto={proyectCuatro} />
         <Proyects proyecto={proyectCinco} />
         <Proyects proyecto={proyectSeis} />
+        <Proyects proyecto={proyectSiete} />
         </div>
     </div>
   )

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './styles/proyects.css'
 const Proyects = ({ proyecto }) => {
 
