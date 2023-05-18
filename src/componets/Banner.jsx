@@ -13,7 +13,7 @@ const Banner = () => {
       <div className='banner-content'>
         <div className='banner-Info'>
           <h1>  <span>Hi!</span> I'am a Front-End Developer.</h1>
-          <p>Como Desarrollador Web Full-Stack, poseo sólidos conocimientos en el desarrollo de aplicaciones utilizando diversas tecnologías tales como JavaScript, React, HTML5, CSS y en la implementación de bases de datos SQL. Además, cuento con experiencia en la creación de soluciones web de calidad y en la implementación de prácticas de desarrollo ágil, garantizando así la entrega oportuna y satisfactoria de los proyectos en los que me desempeño.</p>
+          <p>¡Hola! Soy Walter Antonio Camacho Pacheco, un Desarrollador Web Full-Stack con sólidos conocimientos en JavaScript, React, HTML5, CSS y bases de datos SQL. Tengo experiencia en el desarrollo ágil de aplicaciones web de alta calidad, garantizando entregas oportunas y satisfactorias. Recientemente completé mi carrera en Ingeniería Informática y estoy buscando oportunidades para realizar mis prácticas pre profesionales. Soy una persona proactiva, adaptable y me destaco en el trabajo en equipo para alcanzar objetivos comunes. Estoy altamente motivado para continuar mi desarrollo y mejorar tanto mis habilidades técnicas como blandas.</p>
           <button onClick={scrollToSection}>Contact me</button>
         </div>
 

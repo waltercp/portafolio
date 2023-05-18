@@ -19,7 +19,6 @@ const NavBar = () => {
 
       <ul className= {`nawBar-list ${nawBar? 'active' : ''} ` } >
         <li onClick={handleMenu} ><a href="#home">Home</a></li>
-        <li onClick={handleMenu} ><a href="#aboutMe">About me</a></li>
         <li onClick={handleMenu} ><a href="#knowledge">Knowlege</a></li>
         <li onClick={handleMenu} ><a href="#proyect">Projects</a> </li>
         <li onClick={handleMenu} ><a href="#contactMe">Contact me</a> </li>
