@@ -3,13 +3,13 @@
     flex-direction: column;
     min-height: 100vh;
     gap: 2em;
-    padding: 5em 1em 0 1em
+    padding: 4em 3em
 }
 
 .knowledgeListt-content{
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem 2.5rem;
+    gap: 2rem 2.5rem;
     border-radius: 2rem;
     justify-content: center;
     margin-bottom: 2em;
@@ -29,6 +29,9 @@
 }
 
 @media (max-width: 950px) {
+    .knowledgeListt{
+        padding: 4em 1em
+    }
     .knowledgeListt h2 {
         font-size: 2em;
     }
@@ -37,7 +40,5 @@
         font-size: 1.2em;
     }
 
-    .knowledgeListt{
-        gap: 1em;
-    }
+   
 }

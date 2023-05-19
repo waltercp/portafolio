@@ -51,18 +51,20 @@
 
 .banner-Info h1 {
     margin: 0;
-    font-size: 5.4vw;
+    font-size: clamp(25px, 4vw, 90px);
 
 }
 
 .banner-Info h1 span {
     color: #0ef;
-    font-size: 6vw;
+    font-size: clamp(26px, 4.1vw, 91px);
 }
 
 .banner-Info p {
     width: 95%;
-    font-size: 1.1vw;
+    font-size: max(1.1vw, 13px);  
+    /*font-size: 1.1vw;
+    font-size: max(1.2vw, 12px);*/
     text-align: justify;
     line-height: 2
 }
@@ -72,8 +74,8 @@
     border-radius: 0.5rem;
     background-color: rgb(0, 0, 0, 2%);
     color: white;
-    width: 200px;
-    font-size: 18px;
+    width: clamp(100px, 30vw, 200px);
+    font-size: clamp(10px, 3vw, 18px);
     border: none;
     box-shadow: 0.1em 0.1em 0.2em 0.2em #0ef, inset 0.1em 0.1em 0 0 #0ef;
     transition: 0.2s ease-in-out;
@@ -84,13 +86,20 @@
 }
 
 
+.bannerButton{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-top: 2em;
+}
+
 
 @media screen and (max-aspect-ratio: 1.2) {
     .banner-content {
         flex-direction: column-reverse;
         padding: 6vw;
         margin-top: 0;
-        gap: 4vw;
+        gap: 0.5em;
         justify-content: center;
     }
 
@@ -109,36 +118,26 @@
         gap: 1em;
     }
 
-    .banner-Info h1 {
-        font-size: 6.5vw;
-    }
 
     .banner-Info p {
-        font-size: 1em;
         width: 100%;
 
     }
 
     .banner-Info button {
-        margin-top: 1em;
+        margin-top: 0;
     }
 
     @media (max-width: 500px) {
         .banner-Info p {
-            font-size: 0.7em;
+            line-height: 1.5;
+            font-size: 12px;
         }
-
-        .banner-Info h1 {
-            font-size: 1.5em;
-        }
-        .banner-Info h1 span {
-            font-size: 1.2em;
-        }
-
         .banner-Info button {
-            padding: 0.7em 1.2em;
-            width: 150px;
-            font-size: 15px;
+            padding: 1.5em;
+        }
+        .bannerButton{
+            margin-top: 0;
         }
     }
 

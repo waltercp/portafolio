@@ -56,13 +56,13 @@ const ProyectList = () => {
     <div className= 'proyectList' id='proyect'>
       <h2> <span>Latest </span>Project</h2>
         <div className='proyectList-content' >
-        <Proyects proyecto={proyectUno} />
-        <Proyects proyecto={proyectDos} />
-        <Proyects proyecto={proyectTres} />
-        <Proyects proyecto={proyectCuatro} />
-        <Proyects proyecto={proyectCinco} />
-        <Proyects proyecto={proyectSeis} />
         <Proyects proyecto={proyectSiete} />
+        <Proyects proyecto={proyectSeis} />
+        <Proyects proyecto={proyectCinco} />
+        <Proyects proyecto={proyectCuatro} />
+        <Proyects proyecto={proyectTres} />
+        <Proyects proyecto={proyectDos} />
+        <Proyects proyecto={proyectUno} />
         </div>
     </div>
   )

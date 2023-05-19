@@ -34,7 +34,7 @@
 
 .proyect-content p {
 
-    font-size:110 %;
+    font-size:110%;
     color: #0ef;
 }
 
@@ -45,7 +45,6 @@
     background-color: rgb(0, 0, 0, 2%);
     color: white;
     width: 15vw;
-    font-size: 0.9vw;
     min-width: 10em;
     border: none;
     box-shadow: 0.1em 0.1em 0.2em 0.2em rgb(248, 247, 247), inset 0.1em 0.1em 0 0 rgb(231, 225, 225);
@@ -53,21 +52,10 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
 
-    .proyect-content {
-        gap: 0.6em;
+    .proyect-content{
+        display: none;
     }
-
-    .proyect-content h3 {
-        font-size: 150%;
-    }
-
-
-    .proyect-content button {
-        padding: 0.5em;
-        font-size: 0.8em;
-    }
-
 
 }

@@ -1,54 +1,41 @@
 .knowlegge-container {
-    border: 0.2rem solid rgba(27, 24, 35);
-    background-color: rgba(27, 24, 35);
-    width: 450px;
-    height: 10w;
-    border-radius: 2rem;
     display: flex;
+    flex-direction: column;
     transition: transform 200ms ease;
-    overflow: hidden;
+    gap: 0.5em;
+    cursor: pointer;
 }
 
 .knowlegge-container:hover {
-    transform: scale(1.03);
+    transform: scale(1.2);
 }
 
 .knowlegge-container-img {
-    width: 35%;
-    height: 100%;
+    width: clamp(80px, 10vw, 200px);
+    aspect-ratio: 1;
     background-color: rgb(255, 255, 255, 80%);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius:50%;
+    padding: 1em;
+    position: relative;
 }
 
 .knowlegge-container-img img {
-    width: 90%;
-    height: 90%;
+    
     object-fit:contain;
-
+    position: absolute;
+    width: 80%;
+    height: 80%;
 }
 
-.knowlegge-container-info {
-    width: 65%;
-    padding: 1.5em;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.5em;
-}
+
 
 .knowlegge-container-info h3 {
     font-size: 150%;
     color: #0ef;
-}
-
-.knowlegge-container-info p {
-    font-size: 80%;
+    text-align: center;
 }
 
 
-
-
-/* Rectangle */
