@@ -1,9 +1,10 @@
 .knowledgeListt{
     display:flex ;
     flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
     gap: 2em;
-    padding: 4em 3em
+    padding: 2em 3em
 }
 
 .knowledgeListt-content{

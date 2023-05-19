@@ -22,6 +22,11 @@
 .nawBar-list li{
     font-size: 1.2em;
 }
+.nawBar-list li:hover {
+    transform: scale(1.2);
+    color: aqua;
+}
+
 
 
 @media (max-width: 800px) {
