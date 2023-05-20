@@ -1,0 +1,45 @@
+.statsSection{
+    
+}
+.statsList {
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+ 
+   
+}
+
+
+.statsList li {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.statBaseBar {
+
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    background-color: #F7F7F7;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(65, 100, 96, 0.579);
+}
+
+.statBar {
+    height: 100%;
+    background: linear-gradient(90deg, rgb(112, 182, 182) -2.25%,  rgb(0, 238, 255));
+    border-radius: 4px;
+    animation: statsbar 1s 1;
+    animation-timing-function: ease-in;
+}
+
+
+
+@keyframes statsbar {
+    0% {
+        width: 0%;
+    }
+}

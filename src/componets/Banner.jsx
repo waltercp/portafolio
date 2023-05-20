@@ -17,7 +17,7 @@ const Banner = () => {
       <div className='banner-content'>
         <div className='banner-Info'>
           <h1>  <span>Hi!</span> I'am a Front-End Developer.</h1>
-          <p>¡Hola! Soy Walter  Camacho, un Desarrollador Web Full-Stack con sólidos conocimientos en JavaScript, React, HTML5, CSS y bases de datos SQL. Tengo experiencia en el desarrollo ágil de aplicaciones web de alta calidad. Recientemente completé mi carrera en Ingeniería Informática y estoy buscando oportunidades para realizar mis prácticas pre profesionales. Soy una persona proactiva, adaptable y me destaco en el trabajo en equipo para alcanzar objetivos comunes. Estoy altamente motivado para continuar mi desarrollo y mejorar tanto mis habilidades técnicas como blandas.</p>
+          <p>¡Hola! Soy Walter  Camacho, un Desarrollador Web Full-Stack con sólidos conocimientos en JavaScript, React, HTML5, CSS y bases de datos SQL. Tengo experiencia en el desarrollo ágil de aplicaciones web de alta calidad. Soy una persona proactiva, adaptable y me destaco en el trabajo en equipo para alcanzar objetivos comunes. Estoy altamente motivado para continuar mi desarrollo y mejorar tanto mis habilidades técnicas como blandas.</p>
           <div className='bannerButton'>
             <button onClick={scrollToSection}>Contact me</button>
             <button onClick={handleCV} type="button">See CV</button>

@@ -4,6 +4,7 @@ import Footer from './componets/Footer'
 import Banner from './componets/Banner'
 import ProyectList from './componets/ProyectList'
 import KnowledgeListt from './componets/KnowledgeListt'
+import SoftSkills from './componets/SoftSkills'
 
 
 
@@ -15,6 +16,7 @@ function App() {
   
             <NavBar />
             <Banner />
+           
             <KnowledgeListt />
             <ProyectList />
             <Footer />

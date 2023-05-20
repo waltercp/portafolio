@@ -13,7 +13,7 @@ const NavBar = () => {
     <nav className='nawBar'>
 
       <div className='menuResponsive'>
-        <div onClick={handleMenu} class="bx handleIconNavbar bxs-dashboard"></div>
+        <div onClick={handleMenu} className="bx handleIconNavbar bxs-dashboard"></div>
       </div>
 
 
