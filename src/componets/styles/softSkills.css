@@ -1,23 +1,149 @@
-.statsSection{
-    
-}
-.statsList {
-    margin: auto;
-    width: 80%;
-    margin-top: 50px;
- 
-   
+.statsSection h2 {
+    text-align: center;
+    font-size: clamp(35px, 4.5vw, 90px);
 }
 
+.statsSection h2 span {
+    color: #0ef;
+}
+
+.statsSection {
+    padding:  2em;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    justify-content: center;
+}
+
+
+.moreAbout__Content {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+/*experience*/
+.experience__content {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.experience__content li {
+
+    padding: 3em;
+    width: 180px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #0ef;
+    box-shadow: 0 0 6px #0ef;
+}
+
+.experience__content li:hover {
+    background-color: rgb(0, 238, 255, 80%);
+}
+
+
+.experience__content li h4 {
+    font-size: 3em;
+    border-bottom: 2px solid rgb(209, 209, 226);
+}
+
+.experience__content li p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+/*EDUCACIOM*/
+
+.education-content{
+   display: flex;
+   gap: 1em;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.AboutMeEduacacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+    gap: 1em;
+    flex-wrap: wrap
+}
+
+.eduacacion h4{
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+}
+
+.AboutMeEduacacion__content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMeEduacacion img {
+    width: 16em;
+    transition: transform 200ms ease;
+}
+
+.AboutMeEduacacion__content:hover {
+    transform: scale(1.1);
+}
+
+
+.educationImage{
+  padding: 1.4em  0.5em; 
+  background-color: white; 
+  border: 3px solid rgb(253, 15, 94);
+}
+
+
+
+.MyInfo{
+    background-color: rgb(68, 68, 68,50%);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    font-size: 20px;
+    padding: 1em;
+    border: 3px solid aqua;
+    box-shadow: 0 0 10px #0ef;
+    height: 70px;
+}
+
+.MyInfo i{
+    color: aqua;
+    margin-right: 0.5em;
+}
+
+
+
+.MyInfo span{
+    font-weight: bolder;
+    color: rgba(4, 255, 159, 0.8);
+}
+
+
+/*skills*/
+.statsList {
+    width: 30%;
+    margin-top: 30px;
+}
 
 .statsList li {
     margin-bottom: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     text-transform: capitalize;
     font-weight: 600;
 }
+
 .statBaseBar {
 
     margin-top: 10px;
@@ -30,7 +156,7 @@
 
 .statBar {
     height: 100%;
-    background: linear-gradient(90deg, rgb(112, 182, 182) -2.25%,  rgb(0, 238, 255));
+    background: linear-gradient(90deg, rgb(112, 182, 182) -2.25%, rgb(0, 238, 255));
     border-radius: 4px;
     animation: statsbar 1s 1;
     animation-timing-function: ease-in;
@@ -40,6 +166,25 @@
 
 @keyframes statsbar {
     0% {
-        width: 0%;
+        width: 5%;
     }
 }
+
+
+
+@media (max-width:1000px) {
+    .moreAbout__Content{
+        flex-direction: column; 
+    }
+
+    .statsList {
+        width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .MyInfo p{
+        font-size: 0.9em;
+     }
+}
+
