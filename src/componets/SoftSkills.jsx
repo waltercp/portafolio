@@ -12,7 +12,7 @@ const SoftSkills = () => {
             const ul = ulRef.current
             const { y } = ul.getBoundingClientRect()
 
-            const animation = y <= 600 ? 'block' : 'none'
+            const animation = y <= 800 ? 'block' : 'none'
 
             setAnimationName(animation)
 
@@ -24,7 +24,7 @@ const SoftSkills = () => {
     }, [])
 
     return (
-        <div ref={ulRef} className='statsSection' id='aboutMe'>
+        <div  className='statsSection' id='aboutMe'>
 
             <h2><span>About </span>Me</h2>
 
@@ -79,7 +79,7 @@ const SoftSkills = () => {
 
                 </div>
 
-                <ul className='statsList'>
+                <ul className='statsList' ref={ulRef}>
                     <li>
                         <span>Responsabilidad</span>
                         <div className='statBaseBar' style={{ display: animationName }}>
