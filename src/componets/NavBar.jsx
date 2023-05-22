@@ -60,6 +60,7 @@ const NavBar = () => {
 
   const scrollToBottom = () => {
     window.scrollTo(10, document.body.scrollHeight);
+    handleMenu();
   }
 
   return (
