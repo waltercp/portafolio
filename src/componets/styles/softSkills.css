@@ -107,7 +107,6 @@
 
 
 .MyInfo{
-    background-color: rgb(68, 68, 68,50%);
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -117,7 +116,26 @@
     border: 3px solid aqua;
     box-shadow: 0 0 10px #0ef;
     height: 70px;
+    transition: 0.2s ease-in-out;
+    position: relative;
 }
+
+.MyInfo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.8);
+    z-index: -1;
+    transition: .5s;
+}
+
+.MyInfo:hover::before {
+    width: 100%;
+}
+
 
 .MyInfo i{
     color: aqua;

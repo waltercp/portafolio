@@ -9,7 +9,7 @@ const AboutMe = () => {
       '_blank')
   }
   return (
-    <div className='aboutMe' id='aboutMe'>
+    <div className='aboutMe' >
       <div className='aboutMe-content'>
         <div className='aboutMe-image'>
           <img src="/miFoto.png" alt="" />

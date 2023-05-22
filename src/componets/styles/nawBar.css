@@ -19,21 +19,27 @@
     color: white;
 }
 
-.nawBar-list li{
+.nawBar-list li {
     font-size: 1.2em;
-}
-.nawBar-list li:hover {
-    transform: scale(1.2);
-    color: aqua;
+
 }
 
+.nawBar-list li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.itensActive {
+    color: aqua;
+
+}
 
 
 @media (max-width: 800px) {
 
-    .menuResponsive{
+    .menuResponsive {
         background-color: rgb(14, 2, 51);
-        position:fixed;
+        position: fixed;
         top: 0px;
         right: 0px;
         padding: 0.5em;
@@ -42,10 +48,10 @@
     }
 
     .handleIconNavbar {
-        display:inline-block;
+        display: inline-block;
         font-size: 50px;
     }
-    
+
     .nawBar-list {
         background-color: rgba(47, 41, 61, 0.95);
         position: fixed;
@@ -63,10 +69,10 @@
     }
 
     .active {
-        left: 110%
+        left: 110%;
     }
 
-    .nawBar-list li{
+    .nawBar-list li {
         font-size: 1.5em;
         color: white;
     }

@@ -34,7 +34,7 @@ const knowledgeCinco = {
 const knowledgeSeis = {
     img: '/knoweldge/excel.png',
     name: 'Excel',
-    descripcion:''
+    descripcion:'https://drive.google.com/drive/folders/1SftTgKVj3KM8Q7Z5eevbkm6GCrPSLULu'
 }
 
 const knowledgeSiete= {

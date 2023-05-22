@@ -53,7 +53,7 @@ const SoftSkills = () => {
 
                         <div className='MyInfo'>
                             <p><i class='bx bxs-gift'></i><span>Birth:</span>  27/07/1996</p>
-                            <p><i class='bx bxs-location-plus'></i><span>Location:</span>  Lima- Peru </p>
+                            <p><i class='bx bxs-location-plus'></i><span>Location:</span>  Lima - Peru </p>
                         </div>
                     </div>
 
