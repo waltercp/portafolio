@@ -26,7 +26,7 @@ const SoftSkills = () => {
     return (
         <div  className='statsSection' id='aboutMe'>
 
-            <h2><span>About </span>Me</h2>
+            <h2><span>Sobre </span>Mi</h2>
 
             <div className='moreAbout__Content'>
 
@@ -36,12 +36,12 @@ const SoftSkills = () => {
 
 
                         <div className='eduacacion'>
-                            <h4>Educacion</h4>
+                            <h4>Educación</h4>
                             <div className='education-content'>
 
                                 <div className='AboutMeEduacacion__content'>
                                     <div><img src="logounfv.jpg" alt="" /></div>
-                                    <span>Ingenieria Informatica</span>
+                                    <span>Ingeniería Informática</span>
                                 </div>
 
                                 <div className='AboutMeEduacacion__content'>
@@ -52,15 +52,15 @@ const SoftSkills = () => {
                         </div>
 
                         <div className='MyInfo'>
-                            <p><i class='bx bxs-gift'></i><span>Birth:</span>  27/07/1996</p>
-                            <p><i class='bx bxs-location-plus'></i><span>Location:</span>  Lima - Peru </p>
+                            <p><i class='bx bxs-gift'></i><span></span>  27/07/1996</p>
+                            <p><i class='bx bxs-location-plus'></i><span></span>  Lima - Peru </p>
                         </div>
                     </div>
 
 
                     <ul className='experience__content'>
                         <li>
-                            <h4>+100 </h4>
+                            <h4>+150 </h4>
                             <p>Horas de Teoria</p>
                         </li>
 
@@ -70,7 +70,7 @@ const SoftSkills = () => {
                         </li>
 
                         <li>
-                            <h4>+7</h4>
+                            <h4>+10</h4>
                             <p>Proyectos</p>
                         </li>
                     </ul>
@@ -79,7 +79,21 @@ const SoftSkills = () => {
 
                 </div>
 
-                <ul className='statsList' ref={ulRef}>
+    
+               
+
+            </div>
+
+
+
+        </div>
+    )
+}
+
+export default SoftSkills
+
+/*
+ <ul className='statsList' ref={ulRef}>
                     <li>
                         <span>Responsabilidad</span>
                         <div className='statBaseBar' style={{ display: animationName }}>
@@ -110,14 +124,4 @@ const SoftSkills = () => {
                             <div className='statBar' style={{ width: (80 / 100 * 100) + "%" }}></div>
                         </div>
                     </li>
-                </ul>
-
-            </div>
-
-
-
-        </div>
-    )
-}
-
-export default SoftSkills
+                </ul>*/

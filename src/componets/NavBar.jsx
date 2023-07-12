@@ -78,28 +78,28 @@ const NavBar = () => {
             }`}
           onClick={() => handleItemClick('home')}
         >
-          <a href="#home">Home</a>
+          <a href="#home">Inicio</a>
         </li>
         <li
           className={`nawBar-itens ${activeItem === 'aboutMe' ? 'itensActive' : ''
             }`}
           onClick={() => handleItemClick('aboutMe')}
         >
-          <a href="#aboutMe">About Me</a>
+          <a href="#aboutMe">Sobre Mi</a>
         </li>
         <li
           className={`nawBar-itens ${activeItem === 'knowledge' ? 'itensActive' : ''
             }`}
           onClick={() => handleItemClick('knowledge')}
         >
-          <a href="#knowledge">Knowledge</a>
+          <a href="#knowledge">Conocimientos</a>
         </li>
         <li
           className={`nawBar-itens ${activeItem === 'proyect' ? 'itensActive' : ''
             }`}
           onClick={() => handleItemClick('proyect')}
         >
-          <a href="#proyect">Projects</a>
+          <a href="#proyect">Proyectos</a>
         </li>
 
         <li
@@ -107,7 +107,7 @@ const NavBar = () => {
             }`}
           onClick={scrollToBottom}
         >
-          <a>Contact me</a>
+          <a>Contactame</a>
         </li>
       </ul>
     </nav>

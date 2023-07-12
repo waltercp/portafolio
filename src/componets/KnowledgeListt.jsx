@@ -62,22 +62,41 @@ const knowledgeDies= {
 
 }
 
+const knowledgeOnce= {
+    img: '/knoweldge//nodejs.png',
+    name: 'Node.js',
+    descripcion: ''
+
+}
+
+
+const knowledgeDoce= {
+    img: '/knoweldge/Postgresql.png',
+    name: 'PostgreSQL',
+    descripcion: ''
+
+}
+
+
+
 
 const KnowledgeListt = () => {
     return (
         <div className='knowledgeListt' id='knowledge'>
-            <h2> <span>My</span> knowledge</h2>
+            <h2> <span>Mis</span> Conocimientos</h2>
             <div className='knowledgeListt-content' >
-                <Knowledge knowledges={knowledgeUno} />
                 <Knowledge knowledges={knowledgeDos} />
                 <Knowledge knowledges={knowledgeTres} />
-                <Knowledge knowledges={knowledgeCuatro} />
                 <Knowledge knowledges={knowledgeCinco}/>
-                <Knowledge knowledges={knowledgeSeis}/>
-                <Knowledge knowledges={knowledgeSiete}/>
-                <Knowledge knowledges={knowledgeOcho}/>
-                <Knowledge knowledges={knowledgeNueve}/>
+                <Knowledge knowledges={knowledgeCuatro} />
                 <Knowledge knowledges={knowledgeDies}/>
+                <Knowledge knowledges={knowledgeOnce}/>  
+                <Knowledge knowledges={knowledgeSeis}/>
+                <Knowledge knowledges={knowledgeNueve}/> 
+                <Knowledge knowledges={knowledgeSiete}/>
+                <Knowledge knowledges={knowledgeDoce}/>
+                <Knowledge knowledges={knowledgeUno} />
+                <Knowledge knowledges={knowledgeOcho}/>
             </div>
         </div>
     )

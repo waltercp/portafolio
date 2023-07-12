@@ -19,7 +19,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
 }
 
 .proyects:hover .proyect-content {
@@ -30,12 +29,20 @@
 
 .proyect-content h3 {
     font-size: 220%;
+    gap: 0;
 }
 
-.proyect-content p {
+.content_tecnologias {
 
     font-size:110%;
     color: #0ef;
+}
+
+.content_descripcion {
+
+    font-size:90%;
+    color: white;
+    padding: 1em 2em;
 }
 
 

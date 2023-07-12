@@ -16,11 +16,12 @@ const Banner = () => {
     <div className='banner' id='home'>
       <div className='banner-content'>
         <div className='banner-Info'>
-          <h1>  <span>Hi!</span> I'am a Front-End Developer.</h1>
-          <p>¡Hola! Soy Walter  Camacho, un Desarrollador Web Full-Stack con sólidos conocimientos en JavaScript, React, HTML5, CSS y bases de datos SQL. Tengo experiencia en el desarrollo ágil de aplicaciones web de alta calidad. Soy una persona proactiva, adaptable y me destaco en el trabajo en equipo para alcanzar objetivos comunes. Estoy altamente motivado para continuar mi desarrollo y mejorar tanto mis habilidades técnicas como blandas.</p>
+          <h1>  <span>Desarrollador Web </span>Full-Stack</h1>
+          <p>¡Hola! Soy Walter Camacho, un Desarrollador Web Full-Stack con experiencia en JavaScript, React, HTML5, CSS, node.js y bases de datos SQL. He trabajado en el desarrollo ágil de aplicaciones web de alta calidad y me destaco en el trabajo en equipo. Busco constantemente mejorar tanto mis habilidades técnicas como blandas. Soy proactivo, adaptable y altamente motivado. Estoy listo para asumir nuevos desafíos y aportar valor a tu equipo.</p>
+          
           <div className='bannerButton'>
-            <button onClick={scrollToSection}>Contact me</button>
-            <button onClick={handleCV} type="button">See CV</button>
+            <button onClick={scrollToSection}>Contactame</button>
+            <button onClick={handleCV} type="button">Ver CV</button>
           </div>
 
         </div>

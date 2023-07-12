@@ -50,13 +50,14 @@
 }
 
 .banner-Info h1 {
+    color: #0ef;
     margin: 0;
     font-size: clamp(25px, 4vw, 90px);
 
 }
 
 .banner-Info h1 span {
-    color: #0ef;
+    color: white;
     font-size: clamp(26px, 4.1vw, 91px);
 }
 
