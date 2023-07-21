@@ -8,7 +8,7 @@ const Banner = () => {
     section.scrollIntoView({ behavior: "smooth" });
   }
   const handleCV = () => {
-    window.open('https://drive.google.com/file/d/1-_46oes2tpec_0cYDjCnU59oVHjXBfsM/view?usp=sharing',
+    window.open('https://drive.google.com/file/d/1tkk1Ppu3co7h4Ftr8xxFaut4Fru6xDB4/view?usp=sharing',
       '_blank')
   }
 
